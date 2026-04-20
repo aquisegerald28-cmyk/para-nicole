@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PARA TI NICOLE ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sobre" class="seccion activa">
+    <div class="sobre-container" onclick="abrirSobre()">
+        <div class="sobre">
+            <div class="tapa"></div>
+            <div class="carta-dentro"></div>
+        </div>
+        <div class="corazon">❤️</div>
+    </div>
+</div>
+<div id="carta" class="seccion">
+    <div class="contenido fade">
+        <h1>HOLIIIII ajsajsja esto es para ti mi minion más querido :3 ❤️</h1>
+        <p id="texto"></p>
+
+        <div class="imagenes">
+            <img src="img/1.jpg" alt="foto">
+        </div>
+
+        <button onclick="mostrar('musica')">Hay algo más… ✨</button>
+    </div>
+</div>
+<div id="musica" class="seccion">
+    <div class="contenido fade">
+        <h2>Nuestra música 🎶</h2>
+        <p>
+            Cada una de estas canciones pueden descrbir perfectamente lo que siento por ti :3 ❤️  
+        </p>
+
+        <a href="https://music.youtube.com/playlist?list=PLyK-a61B4GqGmMvgOh1mKfkiriKxkbBMD&si=b1TwcWTnMJ0ppmUJ" target="_blank">
+            <div class="card-musica">
+                <img src="img/music.jpg" alt="playlist">
+                <div class="overlay">
+                    ▶ Reproducir playlist
+                </div>
+            </div>
+        </a>
+
+        <button onclick="mostrar('pregunta')">Y una cosa más... 💌</button>
+    </div>
+</div>
+<div id="pregunta" class="seccion">
+    <div class="contenido fade">
+        <h2>¿Me perdonas?🥺</h2>
+
+        <div class="botones-area">
+            <div class="botones">
+                <button id="no" onclick="moverNo()">No 🥺​</button>
+                <button id="si" onclick="final()">Sí ❤️</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="final" class="seccion">
+    <div class="contenido">
+        <h1>Sabía que que si querias jsajsajsajs </h1>
+        <p>Te quiero mucho :3 ❤️</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
