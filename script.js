@@ -13,7 +13,7 @@ function abrirSobre() {
     }, 1200);
 }
 
-let mensaje = "Gracias por haberle dado sentido a mi vida, eres lo mejor que me pudo pasar y no quiero irme de tu lado, te quiero de una manera que me cuesta expresar...";
+let mensaje = "Gracias por haberle dado sentido a mi vida, eres lo mejor que me pudo pasar y no quiero irme de tu lado, te quiero de una manera que me cuesta expresarde de tal manera que apenas te vi ayer y ya quiero verte denuevo de una manera que me hace querer pasar cada dia, minuto y segundo a tu lado, se que no ofrezco mucho pero si te ofrezco el cariño sincero de un chico enamorado que lo unico que hace es pensar en ti todo el dia todos los dias, tu eres esa persona que vale la pena, una persona por la cual vale la pena esperar y si asi tiene que ser yo esty dispuesto a hacerlo ❤️";
 let i = 0;
 
 function escribir() {
